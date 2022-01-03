@@ -70,7 +70,7 @@ function App() {
     }
     fetchMatrixReloadedData();
   };
-
+  console.log('data', data)
 
   return (
     <div>
