@@ -4,7 +4,7 @@ import styled from 'styled-components';
 // Create a StyledTitle component that'll render an <h3> tag with some styles
 export const StyledTitle = styled.h3`
   color: ${props => props.bg};
-  font-size: 17px;
+  font-size: 2vw;
   position:absolute;
   left:280px;
   margin-top:90px;
@@ -12,21 +12,21 @@ export const StyledTitle = styled.h3`
 // Create a StyledTitle component that'll render an <h3> tag with some styles
 export const StyledYear = styled.h6`
   color: ${props => props.bg};
-  font-size: 14px;
+  font-size: 1.3vw;
   margin-bottom: 10px;
   position:absolute;
   left:280px;
-  margin-top:155px;
+  margin-top:140px;
 `;
 // Create a StyledTitle component that'll render an <h3> tag with some styles
 export const StyledType = styled.h6`
   color: ${props => props.bg};
-  font-size: 14px;
+  font-size: 1.3vw;
   margin-bottom: 10px;
   text-transform: capitalize;
   position:absolute;
   left:280px;
-  margin-top:185px;
+  margin-top:175px;
 `;
 
 
