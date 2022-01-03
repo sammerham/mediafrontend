@@ -6,10 +6,8 @@ export const StyledTitle = styled.h3`
   color: ${props => props.bg};
   font-size: 17px;
   position:absolute;
-  left:200px;
+  left:280px;
   margin-top:90px;
-  margin-right:40px;
-  margin-left:60px;
 `;
 // Create a StyledTitle component that'll render an <h3> tag with some styles
 export const StyledYear = styled.h6`
@@ -17,10 +15,8 @@ export const StyledYear = styled.h6`
   font-size: 14px;
   margin-bottom: 10px;
   position:absolute;
-  left:200px;
-  margin-top:145px;
-  margin-right:40px;
-  margin-left:60px;
+  left:280px;
+  margin-top:155px;
 `;
 // Create a StyledTitle component that'll render an <h3> tag with some styles
 export const StyledType = styled.h6`
@@ -28,11 +24,9 @@ export const StyledType = styled.h6`
   font-size: 14px;
   margin-bottom: 10px;
   text-transform: capitalize;
-  // position:absolute;
-  left:200px;
-  margin-top:175px;
-  margin-right:40px;
-  margin-left:0px;
+  position:absolute;
+  left:280px;
+  margin-top:185px;
 `;
 
 
@@ -47,8 +41,6 @@ export const StyledImage = styled.img`
   background-color: white;
   margin-top:60px;
   margin-right:40px;
-  // position:absolute;
-  // left:20px;
 `;
 
 // Create a StyledInfoDiv component that'll render an <div> tag with some styles
